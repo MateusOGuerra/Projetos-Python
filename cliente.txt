@@ -1,0 +1,8 @@
+nome = input("Digite seu nome: ")
+
+with open("clientes.txt", "a", encoding="utf-8") as arquivo:
+    arquivo.write(
+        Mateus
+João
+Maria
+Pedro "\n")
